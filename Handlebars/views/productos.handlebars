@@ -1,0 +1,10 @@
+<h1>Productos</h1>
+<ul class="product_list">
+    {{#each array}}
+    <li>{{this}}</li>
+    {{else}}
+    <p class="empty">No content</p>
+    {{/each}}
+</ul>
+
+{{>productosForm}}

@@ -1,0 +1,14 @@
+h1 Ingrese datos
+br
+
+form(action="/productos" method="post")  
+    div(class="form-group")
+        label(for="title")b Titulo 
+        input(type="text" name="title" id="title" class="form-control")
+    div(class="form-group")
+        label(for="price")b Precio  
+        input(type="text" name="price" id="price" class="form-control")
+    div(class="form-group")
+        label(for="thumbnail")b Thumbnail 
+        input(type="link" name="thumbnail" id="thumbnail" class="form-control")
+    button(class="btn btn-success mt-3 mb-5" Enviar)
